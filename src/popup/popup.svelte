@@ -49,3 +49,9 @@
 <Header />
 <Sessions />
 <CommandPalette bind:open />
+
+<style>
+  :global(html, body) {
+    overflow: hidden;
+  }
+</style>
